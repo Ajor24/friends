@@ -20,19 +20,29 @@ This template should help get you started developing with Vue 3 in Vite.
 See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
-
-```sh
 npm install
 ```
+# 安装必要依赖
+npm install quasar @quasar/extras
+npm install socket.io-client pinia
+npm install @vueuse/core # 实用工具库
 
-### Compile and Hot-Reload for Development
+# 安装PWA支持
+npm install vite-plugin-pwa
+```
 
-```sh
+#### 1.2 后端项目搭建
+cd backend
+npm init -y
+
+# 安装后端依赖
+npm install express socket.io sqlite3 jsonwebtoken
+npm install multer bcryptjs uuid
+npm install nodemon --save-dev
+
+#启动项目
+#前端
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+#后端
+cd backend
+npm run dev
