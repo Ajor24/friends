@@ -19,7 +19,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-#Project Setup
+# Project Setup
 npm install
 ```
 # 安装必要依赖
@@ -31,9 +31,8 @@ npm install @vueuse/core # 实用工具库
 npm install vite-plugin-pwa
 ```
 
-#后端项目搭建
-cd backend
-npm init -y
+# 后端项目搭建
+cd backend/npm init -y
 
 ```
 # 安装后端依赖
